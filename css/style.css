@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+
+body {
+  background: url("../images/knitting250px_@2X.png") repeat;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: #ff8c69;
+}
+
+.contact-header {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: baseline;
+  justify-content: space-evenly;
+}
+
+.social-icon {
+  padding-top: 5px;
+}
+
+.fa-heart {
+  color: #ff4500;
+}
+
+.logo {
+  width: 100%;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  text-align: center;
+  font-size: 1.7em;
+  padding-top: 8px;
+}
+
+h3 {
+  font-weight: 400;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+main {
+  width: 100%;
+/*  flex: 1;
+*/}
+
+ul {
+  list-style-type: circle;
+}
+
+.list-section {
+  margin: 20px 0 auto;
+  padding: 16px 16px 12px 30px;
+  width: calc(100% - 50px);
+  background-color: #fff;
+  border-top: 2px solid #ff4500;
+  border-bottom: 2px solid #ff4500;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.quiet {
+  font-weight: 300;
+}
+
+.spacer-xsm {
+  width: 100%;
+  height: 25px;
+}
+
+.spacer-sm {
+  width: 100%;
+  height: 50px;
+}
+
+.spacer-med {
+  width: 100%;
+  height: 75px;
+}
+
+.filler {
+  flex: 1;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+  height: 50px;
+  background-color: #eed8ae;
+}
+
+a,
+a:link,
+a:visited {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:active,
+a:hover {
+  color: #7f7f7f;
+  text-decoration: underline;
+}
+
+.list-contact-footer {
+  display: none;
+}
+
+.list-contact {
+  font-weight: 400;
+}
+
+@media (min-width: 600px) {
+  .header {
+    height: 70px;
+    display: flex;
+    flex-flow: row no-wrap;
+  }
+
+  .contact-header {
+    width: 50%;
+    justify-content: flex-end;
+    align-items: normal;
+  }
+
+  .social-icon {
+    padding-top: 18px;
+    width: 10%;
+  }
+
+  .logo {
+    display: flex;
+    width: 50%;
+    padding-left: 16px;
+  }
+
+  .social-icon-footer {
+    display: none;
+  }
+
+  .list-contact-footer {
+    display: flex;
+  }
+}
+
+@media (min-width: 800px) {
+  main {
+    display: flex;
+    flex-flow: row no-wrap;
+    justify-content: space-evenly;
+  }
+
+  .list-section {
+    width: 40%;
+    margin: 20px 0;
+    border: 2px solid #ff4500;
+    border-radius: 8px;
+  }
+}
