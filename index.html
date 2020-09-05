@@ -30,39 +30,44 @@
 		<div class="container">
 			<div class="heading-wrapper">
 				<div class="row">
-					<div class="col-sm-6 col-md-6 col-lg-4">
+					<div class="col-sm-12 text-center">
 						<div class="info">
-							<i class="icon ion-ios-location-outline"></i>
+							<!-- <i class="icon ion-ios-location-outline"></i> -->
 							<div class="right-area">
-								<h5>Cerritos,CA 90703</h5>
-								<h5>Open to remote work (PT)</h5>
+								<h5>Cerritos, CA 90703 (Pacific Time)</h5>
+								<h5>Seeking remote work (FT)</h5>
 							</div><!-- right-area -->
 						</div><!-- info -->
 					</div><!-- col-sm-4 -->
 					
-					<div class="col-sm-6 col-md-6 col-lg-4">
+					<!-- <div class="col-sm-6 col-md-6 col-lg-4">
 						<div class="info">
 							<i class="icon ion-ios-telephone-outline"></i>
 							<div class="right-area">
 								<h5>323.325.1553</h5>
 								<h6>MON - FRI, 8AM - 6PM</h6>
-							</div><!-- right-area -->
-						</div><!-- info -->
-					</div><!-- col-sm-4 -->
+							</div>--><!-- right-area -->
+						<!--</div>--><!-- info -->
+					<!--</div>col-sm-4 -->
 					
-					<div class="col-sm-6 col-md-6 col-lg-4">
+					<!-- <div class="col-sm-6 col-md-6 col-lg-4">
 						<div class="info">
 							<i class="icon ion-ios-chatboxes-outline"></i>
 							<div class="right-area">
-								<h5>cch5ng.job@gmail.com</h5>
+								<h5>cch5ng.job@gmail.com</h5> -->
 								<!--<h6>REPLY IN 24 HOURS</h6>-->
-							</div><!-- right-area -->
-						</div><!-- info -->
-					</div><!-- col-sm-4 -->
+							<!--</div>--><!-- right-area -->
+						<!--</div>--><!-- info -->
+					<!--</div>--><!-- col-sm-4 -->
+
+
+
+
+
 				</div><!-- row -->
 			</div><!-- heading-wrapper -->
 			
-			<a class="downlad-btn" href="./images/Resume_FE_2019.pdf" download="resume.pdf">Download CV</a>
+			<a class="downlad-btn" href="./images/Resume_FE.pdf" download="resume.pdf">Download CV</a>
 		</div><!-- container -->
 	</header>
 	
@@ -75,11 +80,9 @@
 						<div class="profile-img"><img src="images/profile-1-250x250.jpg" alt=""></div>
 						<h2><b>Carol Chung</b></h2>
 						<h4 class="font-mid-grey">Front End Engineer</h4>
-						<ul class="information margin-tb-30">
+						<!-- <ul class="information margin-tb-30">
 							<li><b>EMAIL : </b>cch5ng.job@gmail.com</li>
-							<!--<li><b>BORN : </b>August 25, 1987</li>-->
-							<!--<li><b>MARITAL STATUS : </b>Married</li>-->
-						</ul>
+						</ul> -->
 						<ul class="social-icons">
 							<!-- TODO icons resume, github)-->
 							<!-- <li><a href="#"><i class="ion-social-pinterest"></i></a></li> -->
@@ -116,12 +119,40 @@
 		
 		<div class="portfolioContainer">
 			
+			<div class="p-item react mobile_web node">
+				<div data-fluidbox data-toggle="modal" data-target="#modalMessengerIntl">
+					<img src="images/fe_interview.svg" alt="">
+				</div>
+
+				<!-- Modal -->
+				<div class="modal fade" id="modalMessengerIntl" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+				  <div class="modal-dialog modal-dialog-centered" role="document">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <h5 class="modal-title" id="exampleModalLongTitle">Messenger Int'l</h5>
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          <span aria-hidden="true">&times;</span>
+				        </button>
+				      </div>
+				      <div class="modal-body">
+				        <ul>
+				        	<li><a href="https://github.com/cch5ng/messenger_intl" target="_blank" rel="noopener noreferrer">Source | </a></li>
+				        	<li><a href="https://messenger-intl.herokuapp.com" target="_blank" rel="noopener noreferrer">Demo</a></li>
+				        	<li>Copycat project of FB Messenger + message translation feature. Tech stack: Node/Express, MongoDB, Mongoose, React (hooks), Google Translation API, Sendgrid API, Socket.io, Materia-UI. This was a two-person project, I worked across the stack on the chat, translation, and invitation creation/email features.</li>
+				        </ul>
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+			</div><!-- p-item -->
 
 			<div class="p-item react mobile_web node">
 				<div data-fluidbox data-toggle="modal" data-target="#modalFrontEndInterview">
 					<img src="images/fe_interview.svg" alt="">
 				</div>
-
 				<!-- Modal -->
 				<div class="modal fade" id="modalFrontEndInterview" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 				  <div class="modal-dialog modal-dialog-centered" role="document">
@@ -145,7 +176,6 @@
 				    </div>
 				  </div>
 				</div>
-
 			</div><!-- p-item -->
 
 			<div class="p-item react mobile_web">
@@ -174,16 +204,39 @@
 				    </div>
 				  </div>
 				</div>
+			</div><!-- p-item -->
 
-
-
+			<div class="p-item p-item-2 react mobile_web">
+				<div data-fluidbox data-toggle="modal" data-target="#udacity_blitz">
+					<img src="images/udacity_blitz.jpg" alt="">
+				</div>
+				<!-- Modal -->
+				<div class="modal fade" id="udacity_blitz" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+				  <div class="modal-dialog modal-dialog-centered" role="document">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <h5 class="modal-title" id="exampleModalLongTitle">Udacity Blitz</h5>
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          <span aria-hidden="true">&times;</span>
+				        </button>
+				      </div>
+				      <div class="modal-body">
+				        <ul>
+				        	<li>Worked in a 2-person development team as main Front-End Developer. Delivered internal search tool migration (Angular to React) with codebase written from scratch. Used React, Redux, JavaScript, CSS, Sass, responsive design, Webpack, HTML, Jasmine, Enzyme, Git. Also performed integration and end-to-end tests. (proprietary code)</li>
+				        </ul>
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				      </div>
+				    </div>
+				  </div>
+				</div>
 			</div><!-- p-item -->
 
 			<div class="p-item mobile_web">
 				<div data-fluidbox data-toggle="modal" data-target="#landingPage">
 					<img src="images/landing_page.png" alt=""></a>
 				</div>
-
 				<!-- Modal -->
 				<div class="modal fade" id="landingPage" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 				  <div class="modal-dialog modal-dialog-centered" role="document">
@@ -207,26 +260,27 @@
 				    </div>
 				  </div>
 				</div>
-			</div><!-- p-item -->
+			</div><!-- p-item -->			
 
-			<div class="p-item p-item-2 react mobile_web">
-				<div data-fluidbox data-toggle="modal" data-target="#udacity_blitz">
-					<img src="images/udacity_blitz.jpg" alt="">
+			<div class="p-item mobile_web">
+				<div data-fluidbox data-toggle="modal" data-target="#jobListingsPage">
+					<img src="images/landing_page.png" alt=""></a>
 				</div>
-
 				<!-- Modal -->
-				<div class="modal fade" id="udacity_blitz" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+				<div class="modal fade" id="jobListingsPage" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 				  <div class="modal-dialog modal-dialog-centered" role="document">
 				    <div class="modal-content">
 				      <div class="modal-header">
-				        <h5 class="modal-title" id="exampleModalLongTitle">Udacity Blitz</h5>
+				        <h5 class="modal-title" id="exampleModalLongTitle">Job Listings Page</h5>
 				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 				          <span aria-hidden="true">&times;</span>
 				        </button>
 				      </div>
 				      <div class="modal-body">
 				        <ul>
-				        	<li>Worked in a 2-person development team as main Front-End Developer. Delivered internal search tool migration (Angular to React) with codebase written from scratch. Used React, Redux, JavaScript, CSS, Sass, responsive design, Webpack, HTML, Jasmine, Enzyme, Git. Also performed integration and end-to-end tests. (proprietary code)</li>
+				        	<li><a href="https://github.com/cch5ng/job_listing_fe_mentor" target="_blank" rel="noopener noreferrer">Source | </a></li>
+				        	<li><a href="https://cch5ng.github.io/job_listing_fe_mentor/" target="_blank" rel="noopener noreferrer">Demo</a></li>
+				        	<li>Responsive page for fictitious job listings. Uses CSS/Sass, flexbox, React, SVG, HTML. Design and assets by FrontEnd Masters.</li>
 				        </ul>
 				      </div>
 				      <div class="modal-footer">
@@ -235,9 +289,8 @@
 				    </div>
 				  </div>
 				</div>
-
 			</div><!-- p-item -->
-		
+
 		</div><!-- portfolioContainer -->
 		
 	</section><!-- portfolio-section -->
@@ -285,7 +338,7 @@
 						
 						<div class="col-sm-6 col-md-6 col-lg-3">
 							<div class="radial-prog-area margin-b-50">
-								<div class="radial-progress" data-prog-percent=".15">
+								<div class="radial-progress" data-prog-percent=".40">
 									<div></div>
 									<h6 class="progress-title">NODE</h6>
 								</div>
@@ -399,7 +452,7 @@
 						<div class="education margin-b-50">
 							<h4><b>BACHELOR DEGREE IN SCIENCE/ART</b></h4>
 							<h5 class="font-mid-grey"><b>UCLA - PSYCHOBIOLOGY & ENGLISH LITERATURE</b></h5>
-							<h6 class="font-lite-black margin-t-10">GRADUATED IN JUNE 1993 (5 YEARS)</h6>
+							<h6 class="font-lite-black margin-t-10">GRADUATED (5 YEARS)</h6>
 							<!-- <p class="margin-tb-30">Duis non volutpat arcu, eu mollis tellus. Sed finibus aliquam neque sit amet sodales. 
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla maximus pellentes que velit, 
 							quis consequat nulla effi citur at. Maecenas sed massa tristique.Duis non volutpat arcu, 
